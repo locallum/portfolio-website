@@ -17,11 +17,16 @@ body a{
 
 .navbar {
     padding-right: 3%;
-    padding-left: 5%;
-    padding-top: 3%;
+    padding-left: 4%;
+    padding-top: 0%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
 }
 
 .logo a{
@@ -38,7 +43,7 @@ body a{
 .navlist a{
     color: white;
     font-size: 20px;
-    margin-right: 60px;
+    margin-left: 50px;
     letter-spacing: 1px;
 }
 
@@ -70,8 +75,8 @@ section {
 }
 
 #githublogo img {
-    width: 30px;
+    width: 40px;
     height: auto;
     position: relative;
-    top: 6px;
+    top: 10px;
 }
